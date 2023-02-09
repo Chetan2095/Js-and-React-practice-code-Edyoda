@@ -55,3 +55,17 @@ abc();
 
 // console.log(x);
 // let x;
+
+
+
+
+// let x = 2;
+// const name = "Anchara";
+// const conca = x + name;
+// console.log(conca)
+
+//Template Strings(Template Literals):
+let y = 99;
+const fName = "Chetan";
+const temp = `Anchara ${y+1} ${fName}`;
+console.log(temp);
