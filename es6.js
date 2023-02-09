@@ -15,7 +15,7 @@ a = 10;
 
 console.log(x, y, a, p);
 
-// "var",  "let", "const"
+// "var",  "let", "const" : Scoping -
 
 var x = 2;
 let y = 3;
@@ -47,3 +47,11 @@ function abc() {
 abc();
 
 // console.log(p, q, r, m, n, o)   //variable created in function and block scope can not to accesed outside of these scopes (except "var")
+
+
+// hosting var, let, const:
+// console.log(x);
+// var x;
+
+// console.log(x);
+// let x;
