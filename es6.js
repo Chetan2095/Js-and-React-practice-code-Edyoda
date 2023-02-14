@@ -65,7 +65,9 @@ abc();
 // console.log(conca)
 
 //Template Strings(Template Literals):
-let y = 99;
-const fName = "Chetan";
-const temp = `Anchara ${y+1} ${fName}`;
-console.log(temp);
+// let y = 99;
+// const fName = "Chetan";
+// const temp = `Anchara ${y+1} ${fName}`;
+// console.log(temp);
+
+
