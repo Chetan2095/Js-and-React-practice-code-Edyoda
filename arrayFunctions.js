@@ -155,6 +155,27 @@ console.log(index);
 
 
 
+//find() - instate of returning index, it returns the value of first array item for which the given condition is true.
+const person = student.find((item) => {
+    return item.weight > 60
+})
+console.log(person)
+
+const person = student.find((item) => {
+    return item.weight > 75                    //if the given condition does not meet, it return 'undefine'.
+})
+console.log(person)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
