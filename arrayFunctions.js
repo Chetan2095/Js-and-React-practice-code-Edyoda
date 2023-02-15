@@ -73,13 +73,84 @@ console.log(output);
 const output = arr.map((item, index, array) => {
     console.log(item * 2, index * 3, array[index + 1]);
     for (item == 3) {
-                                  //undefine for item = 3
+        //undefine for item = 3
     }
     else {
     return item * 2;           //we can return anything in an new array
 }
 })
 console.log(output);
+
+
+
+
+
+
+
+//findIndex() - it return the index of the perticular first  items for which the given condition is true. If the given condition is 'false', it returns -1.
+const student = [                                //object Array
+    {
+        name: 'Aman',
+        weight: 60
+    },
+    {
+        name: 'Bansi',
+        weight: 55
+    },
+    {
+        name: 'Chirag',
+        weight: 66
+    },
+    {
+        name: 'Dhanno',
+        weight: 59
+    },
+    {
+        name: 'Elvish',
+        weight: 70
+    },
+    {
+        name: 'Girdhari',
+        weight: 75
+    }
+]
+
+const index = student.findIndex((item) => {
+    if (item.weight > 60) {
+        return true;
+    }
+    else {
+        return false;
+    }
+})
+
+//OR
+
+const index = student.findIndex((item) => {
+    return item.weight > 60 ? true : false           //turnary operator
+})
+
+//OR
+
+const index = student.findIndex((item) => {
+    return item.weight > 60
+})
+
+//OR
+
+const index = student.findIndex((item) => item.weight > 60)               //Arrow function is self return function, it return the value written in one line
+
+const index = student.findIndex((item) => item.weight > 75)          //If the given condition is 'false', it returns -1.
+if (index === -1) {
+    console.log("Not Found");
+}
+else {
+    console.log("Founs");
+
+}
+console.log(index);
+
+
 
 
 
