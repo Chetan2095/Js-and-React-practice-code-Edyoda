@@ -49,6 +49,14 @@ arr.forEach((item, index, array)=>{
     console.log(item, index, array);
 })
 
+// forEach() : 'for' loop + arrow function :-
+// const arr = [1, 2, 3, 4, 5]
+const output = arr.forEach((item, index, array)=>{
+    console.log(item, index, array);
+    return "xyz";          //undefined >> forEach() doesn't return anything
+})
+console.log(output);
+
 
 
 
